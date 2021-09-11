@@ -1591,7 +1591,7 @@ for i in range(0, sheet1.nrows):
     for i in rest_Url:
         link=i
         # print(link)  
-        f=open("Adapt_link_Out.txt", 'a')        
+        f=open("Adapt_link_Out.txt", 'a', encoding="utf-8")        
         f.write(str(Id)+"\t"+str(Sku)+"\t"+str(link)+"\n")
         f.close()    
 # except:
